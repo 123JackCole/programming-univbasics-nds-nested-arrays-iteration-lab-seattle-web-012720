@@ -24,12 +24,12 @@ def find_greater_pair(src)
   
   new_array = []
   row_index = 0
-  larger_num = nil
+  #larger_num = nil
   while row_index < src.count do
     element_index = 0
     while element_index < src[row_index].count do
-      larger_num
-      new_array[row_index] = larger_num
+      #larger_num = 
+      new_array[row_index] = src
       element_index += 1
     end
   row_index += 1
