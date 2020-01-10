@@ -23,14 +23,14 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   
   row_index = 0
-  while row_index < spice_rack.count do
+  while row_index < src.count do
     element_index = 0
-    while element_index < spice_rack[row_index].count do
-      puts spice_rack[row_index][element_index]
+    while element_index < src[row_index].count do
+      #stuff
       element_index += 1
-  end
+    end
   row_index += 1
-end
+  end
   
 end
 
