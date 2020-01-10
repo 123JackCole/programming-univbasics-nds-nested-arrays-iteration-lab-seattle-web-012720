@@ -22,11 +22,14 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   
+  new_array = []
   row_index = 0
+  larger_num = nil
   while row_index < src.count do
     element_index = 0
     while element_index < src[row_index].count do
-      #stuff
+      larger_num
+      new_array[row_index] = larger_num
       element_index += 1
     end
   row_index += 1
